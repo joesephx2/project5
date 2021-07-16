@@ -1,0 +1,22 @@
+{
+  "name": "5-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "frontend": "cd frontend && npm start",
+    "backend": "cd backend && npm start",
+    "build": "cd frontend && npm install && cd .. && cd backend && npm install",
+    "start": "npm run frontend && npm run backend",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joesephx2/project5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joesephx2/project5/issues"
+  },
+  "homepage": "https://github.com/joesephx2/project5#readme"
+}
